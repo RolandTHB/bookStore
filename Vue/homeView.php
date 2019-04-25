@@ -10,6 +10,14 @@ require 'Part/navbar.php';
     <row class="col-md-6">
         <h1>My Book Store !</h1>
         <p>Tous les livres :</p>
+        <button type="submit">
+            <a href="/bookStore/index.php?controller=book&action=newBook">
+                <i class="fa fa-plus"></i>
+                Ajouter un livre
+            </a>
+        </button>
+        <br/>
+        <br/>
     </row>
 
 
@@ -34,12 +42,6 @@ require 'Part/navbar.php';
                         echo nl2br(htmlspecialchars($book->getCategory()));
                         ?>
                     </p>
-                    <button type="submit">
-                        <a href="/bookStore/index.php?controller=book&action=newBook">
-                            <i class="fa fa-plus"></i>
-                            Ajouter un livre
-                        </a>
-                    </button>
                     <div>
                         <button type="submit">
                             <a href="/bookStore/index.php?controller=book&action=deleteBook&id=<?php echo $book->getId()?>">
