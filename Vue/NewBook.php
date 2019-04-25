@@ -22,8 +22,12 @@ require 'Part/navbar.php';
             <input name="author" type="text" class="form-control" id="exampleInputPassword1" placeholder="Entrez votre auteur">
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Categorie</label>
-            <input name="category" type="text" class="form-control" id="exampleInputPassword1" placeholder="Entrez votre categorie">
+            <label for="exampleFormControlSelect1">Category</label>
+            <select class="form-control" name="category" id="exampleFormControlSelect1">
+                <option>Manga</option>
+                <option>Comic</option>
+                <option>Roman</option>
+            </select>
         </div>
         <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
