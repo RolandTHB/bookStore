@@ -5,7 +5,7 @@
     <div class="container text-center">
         <hr/>
         <p>
-             Made by Roland Tabet
+             Made by Roland Tabet - 2019 <i class="far fa-copyright"></i>
         </p>
     </div>
 </footer>
